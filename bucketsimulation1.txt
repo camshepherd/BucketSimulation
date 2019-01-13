@@ -1,0 +1,2485 @@
+Window:
+{
+	Picture: "Picture2"
+	{
+		Filename = "images/EmptyPicture.png"
+		Left = 360
+		Top = 0
+		Width = 480
+		Height = 510
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 0
+		Smooth = false
+	}
+
+	Picture: "Picture1 (2)"
+	{
+		Filename = "images/EmptyPicture.png"
+		Left = 840
+		Top = 0
+		Width = 410
+		Height = 510
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 0
+		Smooth = false
+	}
+
+	Picture: "Picture1"
+	{
+		Filename = "images/EmptyPicture.png"
+		Left = 0
+		Top = 0
+		Width = 360
+		Height = 710
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 0
+		Smooth = false
+	}
+
+	Label: "label1"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 120
+		Top = 20
+		Width = 125
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 1
+		Text = "Settings"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label2"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 90
+		Top = 50
+		Width = 178
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 2
+		Text = "Top Bucket "
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label3"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 80
+		Width = 100
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 3
+		Text = "Height"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label4"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 110
+		Width = 102
+		Height = 25
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 5
+		Text = "Radius"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label5"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 140
+		Width = 208
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 7
+		Text = "Hole Position "
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label6"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 170
+		Width = 182
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 9
+		Text = "Hole Radius"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label7"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 200
+		Width = 180
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 11
+		Text = "Hole Height"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label8"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 70
+		Top = 260
+		Width = 234
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 13
+		Text = "Bottom Bucket "
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label9"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 290
+		Width = 100
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 14
+		Text = "Height"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label10"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 320
+		Width = 102
+		Height = 25
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 16
+		Text = "Radius"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label11"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 350
+		Width = 208
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 18
+		Text = "Hole Position "
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label12"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 380
+		Width = 182
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 20
+		Text = "Hole Radius"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label13"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 410
+		Width = 190
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 22
+		Text = "Hole Height "
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label14"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 50
+		Top = 470
+		Width = 256
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 24
+		Text = "General Settings"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label15"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 500
+		Width = 142
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 25
+		Text = "Distance "
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label16"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 530
+		Width = 98
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 27
+		Text = "Alpha "
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label17"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 560
+		Width = 76
+		Height = 25
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 29
+		Text = "Units"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label18"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 590
+		Width = 121
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 33
+		Text = "Gravity "
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label19"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 620
+		Width = 139
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 35
+		Text = "Step Size"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	EditBox: "topheight"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 80
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 4
+		Text = "0.5000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "topradius"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 110
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 6
+		Text = "0.3000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "topholeposition"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 140
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 8
+		Text = "Side"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = false
+	}
+
+	EditBox: "topholeradius"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 170
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 10
+		Text = "0.0120000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "topholeheight"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 200
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 12
+		Text = "0.1000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "botheight"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 290
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 15
+		Text = "0.5000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "botradius"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 320
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 17
+		Text = "0.3000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "botholeposition"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 350
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 19
+		Text = "Bottom"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = false
+	}
+
+	EditBox: "botholeradius"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 380
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 21
+		Text = "0.0120000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "botholeheight"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 410
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 23
+		Text = "0.0000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "distance"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 500
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 26
+		Text = "0.0800000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "alpha"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 530
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 28
+		Text = "0.6200000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "gravity"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 590
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 34
+		Text = "9.8100000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "stepsize"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 620
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 36
+		Text = "0.1000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	Picture: "picture7"
+	{
+		Filename = "images/EmptyPicture.png"
+		Left = 360
+		Top = 510
+		Width = 480
+		Height = 290
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 0
+		Smooth = false
+	}
+
+	Slider: "slider1"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 390
+		Top = 640
+		Width = 430
+		Height = 32
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = ValueChanged,Focused
+		CallbackId = 46
+		Minimum = 0
+		Maximum = 1000
+		Value = 0
+		VerticalScroll = false
+	}
+
+	Label: "label20"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 380
+		Top = 560
+		Width = 93
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 41
+		Text = "Speed"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	EditBox: "speed"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 480
+		Top = 560
+		Width = 70
+		Height = 30
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged,Unfocused
+		CallbackId = 42
+		Text = "1"
+		TextSize = 18
+		MaximumCharacters = 5
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	Button: "pauseplay"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 564
+		Top = 553
+		Width = 71
+		Height = 45
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = LeftMouseClicked
+		CallbackId = 43
+		Text = "||>"
+		TextColor = (0,0,0,255)
+		TextSize = 22
+	}
+
+	Label: "label21"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 650
+		Top = 560
+		Width = 75
+		Height = 25
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 44
+		Text = "Time"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	EditBox: "time"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 740
+		Top = 560
+		Width = 80
+		Height = 30
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged,ReturnKeyPressed,Unfocused
+		CallbackId = 45
+		Text = "000000"
+		TextSize = 18
+		MaximumCharacters = 6
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "startpoint"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 380
+		Top = 720
+		Width = 87
+		Height = 30
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 47
+		Text = "000000"
+		TextSize = 18
+		MaximumCharacters = 6
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "finishpoint"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 720
+		Top = 720
+		Width = 87
+		Height = 30
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 48
+		Text = "000000"
+		TextSize = 18
+		MaximumCharacters = 6
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	Button: "revert"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 30
+		Top = 660
+		Width = 141
+		Height = 30
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = LeftMouseClicked
+		CallbackId = 37
+		Text = "Revert"
+		TextColor = (0,0,0,255)
+		TextSize = 22
+	}
+
+	Button: "simulate"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 190
+		Top = 660
+		Width = 141
+		Height = 30
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = LeftMouseClicked
+		CallbackId = 38
+		Text = "Simulate"
+		TextColor = (0,0,0,255)
+		TextSize = 22
+	}
+
+	Label: "label22"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 970
+		Top = 0
+		Width = 140
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 49
+		Text = "Readings"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label23"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 960
+		Top = 30
+		Width = 168
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 50
+		Text = "Top Bucket"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label24"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 60
+		Width = 115
+		Height = 25
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 51
+		Text = "Volume"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label25"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 90
+		Width = 155
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 53
+		Text = "Volume %"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label26"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 120
+		Width = 203
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 55
+		Text = "Water Height"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label27"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 150
+		Width = 134
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 57
+		Text = "Flow Out"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label28"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 180
+		Width = 188
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 59
+		Text = "Exit Velocity"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label29"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 940
+		Top = 210
+		Width = 224
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 61
+		Text = "Bottom Bucket"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label30"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 240
+		Width = 115
+		Height = 25
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 62
+		Text = "Volume"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label31"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 270
+		Width = 155
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 64
+		Text = "Volume %"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label32"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 300
+		Width = 203
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 66
+		Text = "Water Height"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label33"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 330
+		Width = 134
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 68
+		Text = "Flow Out"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label34"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 360
+		Width = 188
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 70
+		Text = "Exit Velocity"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label35"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 970
+		Top = 390
+		Width = 199
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 72
+		Text = "Falling Water"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label36"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 420
+		Width = 115
+		Height = 25
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 73
+		Text = "Volume"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label37"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 450
+		Width = 131
+		Height = 31
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 75
+		Text = "Gap Size"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	Label: "label38"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 870
+		Top = 480
+		Width = 134
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 77
+		Text = "Flow Out"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	EditBox: "topvolume"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 60
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 52
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "topvolumepercent"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 90
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 54
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "topwaterheight"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 120
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 56
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "topflowout"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 150
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 58
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "topexitvelocity"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 180
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 60
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "botvolume"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 240
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 63
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "botvolumepercent"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 270
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 65
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "botwaterheight"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 300
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 67
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "botflowout"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 330
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 69
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "botexitvelocity"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 360
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 71
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "fallvolume"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 420
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 74
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "fallgapsize"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 450
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 76
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	EditBox: "fallflowout"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1090
+		Top = 480
+		Width = 137
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 78
+		Text = "000000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	Picture: "Picture8"
+	{
+		Filename = "images/EmptyPicture.png"
+		Left = 840
+		Top = 510
+		Width = 410
+		Height = 290
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 0
+		Smooth = false
+	}
+
+	EditBox: "savename"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 980
+		Top = 540
+		Width = 237
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 81
+		Text = "defaultsavename1"
+		TextSize = 11
+		MaximumCharacters = 32
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = false
+	}
+
+	Button: "savebutton"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 540
+		Width = 121
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = LeftMouseClicked
+		CallbackId = 80
+		Text = "Save"
+		TextColor = (0,0,0,255)
+		TextSize = 11
+	}
+
+	Label: "savename1"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 600
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 103
+		Text = "Save1"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Label: "savename2"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 615
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 104
+		Text = "Save2"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Label: "savename3"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 630
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 105
+		Text = "Save3"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Label: "savename4"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 645
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 106
+		Text = "Save4"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Label: "savename5"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 660
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 107
+		Text = "Save5"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Label: "savename6"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 675
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 108
+		Text = "Save6"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Label: "savename7"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 690
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 109
+		Text = "Save7"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Label: "savename8"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 705
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 110
+		Text = "Save8"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Label: "savename9"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 720
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 111
+		Text = "Save9"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Label: "savename10"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 735
+		Width = 329
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 112
+		Text = "Save10"
+		TextColor = (255,255,255,255)
+		TextSize = 15
+		BackgroundColor = (0,0,0,0)
+		AutoSize = false
+	}
+
+	Button: "loadbutton"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 910
+		Top = 580
+		Width = 251
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = LeftMouseClicked
+		CallbackId = 79
+		Text = "Load Preset"
+		TextColor = (0,0,0,255)
+		TextSize = 11
+	}
+
+	Picture: "Picture9"
+	{
+		Filename = "images/EmptyPicture.png"
+		Left = 0
+		Top = 710
+		Width = 360
+		Height = 90
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 0
+		Smooth = false
+	}
+
+	LoadingBar: "LoadingBar1"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 10
+		Top = 730
+		Width = 340
+		Height = 50
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = ValueChanged
+		CallbackId = 113
+		Minimum = 0
+		Maximum = 200
+		Value = 0
+		Text = "Simulating"
+		TextColor = (0,0,0,255)
+		TextSize = 37
+	}
+
+	RadioButton: "radiomm"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 310
+		Top = 570
+		Width = 16
+		Height = 16
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = Checked
+		CallbackId = 32
+		Checked = false
+		Text = "mm"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "radiocm"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 268
+		Top = 570
+		Width = 16
+		Height = 16
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = Checked
+		CallbackId = 31
+		Checked = false
+		Text = "cm"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "radiom"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 570
+		Width = 16
+		Height = 16
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = Checked
+		CallbackId = 30
+		Checked = true
+		Text = "m"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	Label: "label40"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 440
+		Width = 208
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 22
+		Text = "Initial Volume"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	EditBox: "botinitialvolume"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 443
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 115
+		Text = "0.0000000000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	Label: "label39"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 20
+		Top = 230
+		Width = 208
+		Height = 26
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 22
+		Text = "Initial Volume"
+		TextColor = (255,255,255,255)
+		TextSize = 30
+		BackgroundColor = (0,0,0,0)
+		AutoSize = true
+	}
+
+	EditBox: "topinitialvolume"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 230
+		Top = 230
+		Width = 107
+		Height = 22.9851
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		Callback = TextChanged
+		CallbackId = 114
+		Text = "0.0989600000"
+		TextSize = 13
+		MaximumCharacters = 12
+		Borders = (4,2,4,2)
+		TextColor = (0,0,0,255)
+		SelectedTextColor = (255,255,255,255)
+		SelectedTextBackgroundColor = (0,110,255,255)
+		SelectionPointColor = (0,0,0,255)
+		LimitTextWidth = false
+		SelectionPointWidth = 1
+		NumbersOnly = true
+	}
+
+	RadioButton: "load1"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 600
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 93
+		Checked = false
+		Text = "1"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "load2"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 615
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 94
+		Checked = false
+		Text = "2"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "load3"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 630
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 95
+		Checked = false
+		Text = "3"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "load4"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 645
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 96
+		Checked = false
+		Text = "4"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "load5"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 660
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 97
+		Checked = false
+		Text = "5"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "load6"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 675
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 98
+		Checked = false
+		Text = "6"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "load7"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 690
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 99
+		Checked = false
+		Text = "7"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "load8"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 705
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 100
+		Checked = false
+		Text = "8"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "load9"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 720
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 101
+		Checked = false
+		Text = "9"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "load10"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 860
+		Top = 735
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 102
+		Checked = false
+		Text = "10"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save1"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 865
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 83
+		Checked = false
+		Text = "1"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save2"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 900
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 84
+		Checked = false
+		Text = "2"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save3"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 934
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 85
+		Checked = false
+		Text = "3"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save4"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 970
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 86
+		Checked = false
+		Text = "4"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save5"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1005
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 87
+		Checked = false
+		Text = "5"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save6"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1040
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 88
+		Checked = false
+		Text = "6"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save7"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1075
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 89
+		Checked = false
+		Text = "7"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save8"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1110
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 90
+		Checked = false
+		Text = "8"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save9"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1145
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 91
+		Checked = false
+		Text = "9"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+	RadioButton: "save10"
+	{
+		ConfigFile = "widgets/White.conf"
+		Left = 1180
+		Top = 560
+		Width = 16
+		Height = 15
+		Visible = true
+		Enabled = true
+		Focused = false
+		Transparency = 255
+		CallbackId = 92
+		Checked = false
+		Text = "10"
+		TextColor = (255,255,255,255)
+		TextSize = 12
+		AllowTextClick = true
+	}
+
+}
